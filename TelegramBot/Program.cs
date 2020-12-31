@@ -20,7 +20,7 @@ namespace TelegramBot
         static void Main(string[] args)
         {
             Bot = new TelegramBotClient("");
-            //AIConfiguration config = new AIConfiguration("4ef50d63720ce7e9c0dc7a27ecc3e26183dab3a9", SupportedLanguage.Russian); Token агента   https://dialogflow.cloud.google.com
+            //AIConfiguration config = new AIConfiguration("", SupportedLanguage.Russian); Token агента   https://dialogflow.cloud.google.com
             // apiAi = new ApiAi(config);
 
             Bot.OnMessage += Bot_OnMessageReceived;
